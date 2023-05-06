@@ -1,0 +1,47 @@
+<%- include('./partials/header.ejs') %>
+<div class="container-fluid bg-dark">
+  <div class="row">
+    <div class="col-sm-3">
+      <%- include('./partials/sidebar.ejs',{page_name:'contact'}) %>
+    </div>
+    <div class="col-sm-9">
+      <!-- Main content -->
+      <div class="container mt-5">
+        <h1 class="text-warning mb-5 border-bottom">Contact</h1>
+        <div class="row text-white mb-5">
+          <p class="mx-auto mb-5">
+            Do you have any questions? Please do not hesitate to contact. I will
+            come back to you within a matter of hour to help you.
+          </p>
+          <div class="col-sm-9 mb-5">
+            <form action="">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputName">Your Name</label>
+                  <input type="text" class="form-control mt-2" id="inputName" />
+                </div>
+                <div class="col-md-6">
+                  <label for="inputEmail">Your Email</label>
+                  <input
+                    type="email"
+                    class="form-control mt-2"
+                    id="inputEmail"
+                  />
+                </div>
+                <div class="col-md-12">
+                  <label for="inputSubject">Your Subject</label>
+                  <input
+                    type="email"
+                    class="form-control mt-2"
+                    id="inputSubject"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<%- include('./partials/footer.ejs')%>

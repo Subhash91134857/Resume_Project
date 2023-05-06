@@ -1,0 +1,51 @@
+<%- include('./partials/header.ejs') %>
+<div class="container-fluid bg-dark">
+  <div class="row">
+    <div class="col-sm-3">
+      <%- include('./partials/sidebar.ejs',{page_name:'Home'}) %>
+    </div>
+    <div class="col-sm-9">
+      <h1 class="">Home Page</h1>
+      <!-- Main content -->
+      <div class="mt-5">
+        <div class="text-center">
+          <img
+            src="/public/images/img-1.jpg"
+            alt=""
+            class="img-thumbnail"
+            width="250px"
+            height="150px"
+          />
+        </div>
+        <div class="mt-5 text-white mx-5 text-justify">
+          <h1 class="fw-bold st-font">Hello,</h1>
+          <div class="px-4" style="line-height: 2rem">
+            <p style="text-indent: 100px">
+              I am <b class="text-warning">Subhash Kumar</b> having 1 year of
+              full stack web development experience for global business, i offer
+              the technical experties you are seeking for your web developer
+              position
+            </p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
+            debitis sit voluptatibus aliquid placeat animi recusandae quidem
+            repellendus culpa quam earum laborum, ut numquam illum amet quas
+            quae delectus sapiente? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Quo quod perferendis consectetur consequatur optio
+            illo nam vero excepturi saepe id maiores, ducimus explicabo dolore,
+            ab temporibus tempora aperiam, adipisci iste. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Culpa modi illo quia totam
+          </div>
+          <div class="text-center">
+            <a href="/contact" class="btn btn-outlin-warning mx-5 my-3"
+              >Hire Me</a
+            >
+            <a href="/contact" class="btn btn-outlin-warning mx-5 my-3"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<%- include('./partials/footer.ejs')%>

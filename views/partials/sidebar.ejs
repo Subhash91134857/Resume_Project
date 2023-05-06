@@ -1,0 +1,26 @@
+<div class="border-right border-danger h-100">
+  <div class="text-center">
+    <img
+      src="/public/images/img-1.jpg"
+      alt="images"
+      class="img-fluid rounded-circle mt-5"
+    />
+    <h3 class="text-white st-font">Subhash Kumar</h3>
+  </div>
+  <nav class="nav flex-column text-center mt-4">
+    <a href="/" class="nav-link <% if(page_name=='Home'){%>active<%}%>">Home</a>
+    <a
+      href="/services"
+      class="nav-link <% if(page_name=='Services'){%>active<%}%>"
+      >Services</a
+    >
+    <a href="/skill" class="nav-link <% if(page_name=='Skill'){%>active<%}%>"
+      >Skill</a
+    >
+    <a
+      href="/contact"
+      class="nav-link <% if(page_name=='contact'){%>active<%}%>"
+      >contact</a
+    >
+  </nav>
+</div>
